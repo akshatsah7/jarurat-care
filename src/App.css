@@ -1,0 +1,97 @@
+:root {
+  --primary-color: #646cff;
+  --secondary-color: #535bf2;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --header-bg-color: #fff;
+  --footer-bg-color: #333;
+  --footer-text-color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background: var(--header-bg-color);
+  padding: 1em 0;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--primary-color);
+}
+
+.mission-vision, .get-in-touch {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: var(--primary-color);
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+address p {
+  margin: 0.5em 0;
+}
+
+address a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+address a:hover {
+  color: var(--secondary-color);
+}
+
+footer {
+  background: var(--footer-bg-color);
+  color: var(--footer-text-color);
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+li:hover {
+  color: black;
+}
